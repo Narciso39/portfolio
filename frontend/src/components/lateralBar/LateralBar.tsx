@@ -1,6 +1,6 @@
 import React from 'react';
 import  * as S from  "./styles";
-import NavBar from '../navbar/NavBar';
+
 
 const LateralBar: React.FC = () => {
   return (
