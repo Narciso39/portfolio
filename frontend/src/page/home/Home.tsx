@@ -1,9 +1,9 @@
 import React from "react";
-import LateralBar from "../../components/lateralBar/LateralBar";
+import NavBar from "../../components/navbar/NavBar";
 
 const Home: React.FC = () => {
   return (
-   <LateralBar />
+   <NavBar />
 );
 };
 
