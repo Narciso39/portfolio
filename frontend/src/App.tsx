@@ -1,16 +1,20 @@
-import React from "react";
-import { ThemeProvider } from "styled-components";
-import { theme } from "./theme/theme";
+import React, { useState } from "react";
+
 import Home from "./page/home/Home";
-import { GlobalStyles } from "./theme/global";
+
+import { ThemeProvider } from "styled-components";
+
+import { GlobalStyles } from "./styles/global";
+import { dark, light } from "./styles/theme/theme";
 
 const App: React.FC = () => {
+  const [isDarkTheme, setIsDarkTheme] = useState(false)
   return (
     <>
-    <ThemeProvider theme={theme}>
-      <Home />
+      <ThemeProvider theme={isDarkTheme ? dark : light}>
+        <Home />
+        <GlobalStyles />
       </ThemeProvider>
-      <GlobalStyles />
     </>
   );
 };

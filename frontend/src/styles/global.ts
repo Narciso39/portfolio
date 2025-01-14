@@ -1,7 +1,14 @@
 import { createGlobalStyle } from "styled-components";
 
+// interface Props {
+//   primary: string;
+//   secundary: string;
+//   background: string;
+//   text: string;
+//   title: string;
+// }
 export const GlobalStyles = createGlobalStyle`
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 
 * {
   margin: 0;
@@ -9,11 +16,16 @@ export const GlobalStyles = createGlobalStyle`
   box-sizing: border-box;
 }
 
+
+html {
+    font-size: 62.5%;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
-  background-color: #fff;
-  color: #000;
+  background-color: ${(props) => props.theme.background};
+  color: ${props => props.theme.text};
 }
 
 ol,
