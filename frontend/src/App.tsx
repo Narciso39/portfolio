@@ -1,10 +1,16 @@
 import React from "react";
-import Home from "./page/home/home";
+import { ThemeProvider } from "styled-components";
+import { theme } from "./theme/theme";
+import Home from "./page/home/Home";
+import { GlobalStyles } from "./theme/global";
 
 const App: React.FC = () => {
   return (
     <>
+    <ThemeProvider theme={theme}>
       <Home />
+      </ThemeProvider>
+      <GlobalStyles />
     </>
   );
 };
