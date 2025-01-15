@@ -6,8 +6,8 @@ const breakpoints = {
 export const light = {
   title: "light",
   logo: '#111827',
-  primary: "#111827",
-  secundary: "#4B5563",
+  primary: "#F9FAFB",
+  secundary: "#111827",
 
   background: "#E5E7EB",
   text: "#333",

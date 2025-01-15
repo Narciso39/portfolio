@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 export const Header = styled.header`
-  
-    
+  padding: 0 1rem;
 `
 
 
@@ -19,7 +18,8 @@ display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
- 
+  align-items: center;
+ padding-top: 3.5rem;
 `
 
 
@@ -30,6 +30,7 @@ export const ul = styled.ul`
   list-style: none;
   padding: 0;
   margin: 0;
+  gap: 2.5rem;
 `
 
 export const li = styled.li`
@@ -64,4 +65,21 @@ color: ${(props) => props.theme.logo};
 
 `
 
-export const theme = styled.div``
+export const theme = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 1rem;
+gap: 1.5rem;
+`
+
+export const button = styled.button`
+  background-color: ${(props) => props.theme.secundary};
+  font-size: 1.5rem;
+  color: ${(props) => props.theme.primary};
+  width: 28.8rem;
+  height: 3.6rem;
+  border-radius: 1.3rem;
+`
+
+export const contentMobile = styled.div``

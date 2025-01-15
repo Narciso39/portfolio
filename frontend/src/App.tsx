@@ -8,7 +8,7 @@ import { GlobalStyles } from "./styles/global";
 import { dark, light } from "./styles/theme/theme";
 
 const App: React.FC = () => {
-  const [isDarkTheme, setIsDarkTheme] = useState(false)
+  const [isDarkTheme, setIsDarkTheme] = useState(true)
   return (
     <>
       <ThemeProvider theme={isDarkTheme ? dark : light}>
