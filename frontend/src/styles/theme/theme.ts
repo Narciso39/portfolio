@@ -13,6 +13,7 @@ export const light = {
   background: "#F9FAFB",
   text: "#111827",
   gray: "#E5E7EB",
+  card: "#FFFFFF",
   breakpoints,
 };
 
@@ -26,5 +27,6 @@ export const dark = {
 
   text: "#D1D5DB",
   gray: "#E5E7EB",
+  card: "#1f2937",
   breakpoints,
 };
