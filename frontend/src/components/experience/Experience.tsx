@@ -10,7 +10,8 @@ const Experience: React.FC = () => {
     <S.p>Here is a quick summary of my most recent experiences:</S.p>
    {xps.experiences.map((xp) => <CardExperience
           key={xp.id}
-          enterprise={xp.role}
+          enterprise={xp.enterprise}
+          position={xp.role}
           date={xp.period}
           work={xp.type}
           func={xp.description}

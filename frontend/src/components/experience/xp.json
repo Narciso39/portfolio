@@ -2,6 +2,7 @@
     "experiences": [
       {
         "id": 1,
+        "enterprise": "Compass Uol",
         "role": "Desenvolvedor FullStack - Node.js + React.js + AWS",
         "type": "Estágio Remoto",
         "period": "06/2024 – 11/2024",
@@ -16,7 +17,8 @@
       },
       {
         "id": 2,
-        "role": "Auxiliar no Suporte Técnico ao Cliente | Dev Comércio",
+        "enterprise": "Dev desenvolvimento de software",
+        "role": "Auxiliar no Suporte Técnico ao Cliente ",
         "type": "Estágio Presencial",
         "period": "04/2023 – 06/2024",
         "description": [
@@ -28,7 +30,8 @@
       },
       {
         "id": 3,
-        "role": "Soldado EV / Técnico de Informática | Exército Brasileiro",
+        "enterprise": "Exército Brasileiro",
+        "role": "Soldado EV / Técnico de Informática",
         "type": "Presencial",
         "period": "03/2022 – 02/2023",
         "description": [

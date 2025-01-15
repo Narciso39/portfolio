@@ -24,10 +24,10 @@ export const card = styled.article`
   background-color: ${(props) => props.theme.card};
 `;
 
-export const nameCompany = styled.h3``;
+export const nameCompany = styled.h2``;
 
 export const date = styled.strong``;
-
+export const position = styled.h3``
 export const work = styled.h4``;
 
 export const func = styled.p``;
