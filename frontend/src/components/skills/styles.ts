@@ -13,7 +13,14 @@ export const imgDev = styled.img`
   height: 7rem;
 `;
 
-export const title = styled.h3``;
+export const title = styled.h3`
+  width: 15rem;
+  text-align: center;
+  font-size: 1.3rem;
+  background-color: ${(props) => props.theme.gray};
+  border-radius: 1rem;
+  color: ${(props) => props.theme.title1};
+`;
 
 export const logosContainer = styled.div`
   display: flex;
