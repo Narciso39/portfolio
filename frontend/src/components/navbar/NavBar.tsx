@@ -1,10 +1,14 @@
 import React, { useEffect, useState } from "react";
 import * as S from "./styles";
 import { logo } from "./logo";
-import { IoCloseSharp } from "react-icons/io5";
+import { IoCloseSharp, IoMoon, IoSunny } from "react-icons/io5";
 import { TiThMenu } from "react-icons/ti";
 
-const NavBar: React.FC = () => {
+type NavBarProps = {
+  themeDark: React.Dispatch<React.SetStateAction<boolean>>;
+  value: boolean;
+};
+const NavBar: React.FC<NavBarProps> = ({ themeDark, value}) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -29,7 +33,7 @@ const NavBar: React.FC = () => {
   return (
     <>
       <S.Header>
-        <S.contentMobile >
+        <S.contentMobile>
           <S.logoMobile>
             <S.logo>{logo}</S.logo>
             <S.menuIcon onClick={toggleMenu}>
@@ -55,7 +59,10 @@ const NavBar: React.FC = () => {
               <S.theme>
                 <S.ul>
                   <S.li>
-                    <a>switch theme</a>
+                  <S.themeBtn  onClick={() => themeDark(prev => !prev)}>
+                    <a >switch theme  </a>
+                    {!value ?  <IoSunny /> : <IoMoon style={{ color:"#F9FAFB",}}/>}
+                    </S.themeBtn>
                   </S.li>
                 </S.ul>
                 <S.button>Download CV</S.button>

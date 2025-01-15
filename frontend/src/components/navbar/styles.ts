@@ -26,7 +26,7 @@ display: flex;
 export const ul = styled.ul`
     display: flex;
   flex-direction: column;
-  gap: 1rem;
+  /* gap: 1rem; */
   list-style: none;
   padding: 0;
   margin: 0;
@@ -34,6 +34,9 @@ export const ul = styled.ul`
 `
 
 export const li = styled.li`
+display: flex;
+
+gap: 1rem;
  font-size: 1.6rem;
   color: ${(props) => props.theme.text};
 
@@ -83,3 +86,7 @@ export const button = styled.button`
 `
 
 export const contentMobile = styled.div``
+
+export const themeBtn = styled.button`
+color: ${(props) => props.theme.text};
+`
