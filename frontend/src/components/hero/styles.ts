@@ -1,11 +1,14 @@
 import styled from "styled-components";
 
 export const hero = styled.section`
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  padding: 0 2rem;
 `;
 
 export const name = styled.h2`
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
   color: ${(props) => props.theme.text};
   overflow: hidden;
@@ -32,10 +35,36 @@ export const name = styled.h2`
   }
 `;
 
-export const presentation = styled.p``;
+export const presentation = styled.p`
+  font-size: 1.3rem;
+  color: ${(props) => props.theme.text};
+`;
 
-export const city = styled.p``;
+export const city = styled.p`
+  display: flex;
+  text-align: center;
+  color: ${(props) => props.theme.text};
+  font-size: 1.2rem;
+`;
 
-export const projects = styled.p``;
+export const projects = styled.p`
+  display: flex;
+  text-align: center;
+  color: ${(props) => props.theme.text};
+  font-size: 1.2rem;
+`;
 
-export const link = styled.a``;
+export const link = styled.a`
+  width: 2rem;
+  height: 2rem;
+  color: ${(props) => props.theme.text};
+  font-size: 1.2rem;
+`;
+
+export const divLink = styled.div`
+  display: flex;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  gap: 1.2rem;
+`;

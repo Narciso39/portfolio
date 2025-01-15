@@ -10,7 +10,7 @@ export const light = {
   secundary: "#111827",
 
   background: "#E5E7EB",
-  text: "#333",
+  text: "#111827",
   breakpoints,
 };
 
