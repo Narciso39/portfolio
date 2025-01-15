@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../../components/navbar/NavBar";
 import Hero from "../../components/hero/Hero";
+import Skills from "../../components/skills/Skills";
 type HomeProps = {
   themeDark: React.Dispatch<React.SetStateAction<boolean>>;
   value: boolean;
@@ -10,6 +11,7 @@ const Home: React.FC<HomeProps> = ({themeDark, value})=> {
     <>
     <NavBar themeDark={themeDark} value={value}/>
     <Hero />
+    <Skills />
     </>
 );
 };
