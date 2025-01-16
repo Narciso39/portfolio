@@ -8,11 +8,11 @@
         "period": "06/2024 – 11/2024",
         "description": [
           "Estágio focado no aprendizado prático, estruturado em trilhas de 12 semanas, com cursos específicos.",
-          "Enfrentei desafios práticos ao final de cada trilha, aplicando conhecimentos adquiridos.",
-          "Utilizei a metodologia Scrum, participando de dailys diárias e atuando como Scrum Master em dias alternados.",
-          "Registrei o desempenho dos colegas e acompanhei dúvidas e impedimentos.",
-          "Experiência em desenvolver projetos front-end, APIs, fullstack e apresentações.",
-          "Gerenciei e provisionei ambientes na AWS."
+          " Enfrentei desafios práticos ao final de cada trilha, aplicando conhecimentos adquiridos.",
+          " Utilizei a metodologia Scrum, participando de dailys diárias e atuando como Scrum Master em dias alternados.",
+          " Registrei o desempenho dos colegas e acompanhei dúvidas e impedimentos.",
+          " Experiência em desenvolver projetos front-end, APIs, fullstack e apresentações.",
+          " Gerenciei e provisionei ambientes na AWS."
         ]
       },
       {
@@ -23,21 +23,21 @@
         "period": "04/2023 – 06/2024",
         "description": [
           "Atuei como estagiário no suporte técnico, fazendo manutenção de hardwares e softwares.",
-          "Configurei redes (switch, load balancer, roteador, etc).",
-          "Gerenciei e realizei manutenção de bancos de dados SQL (MySQL).",
-          "Atendi clientes e ministrei treinamentos de sistemas ERP."
+          " Configurei redes (switch, load balancer, roteador, etc).",
+          " Gerenciei e realizei manutenção de bancos de dados SQL (MySQL).",
+          " Atendi clientes e ministrei treinamentos de sistemas ERP."
         ]
       },
       {
         "id": 3,
         "enterprise": "Exército Brasileiro",
         "role": "Soldado EV / Técnico de Informática",
-        "type": "Presencial",
+        "type": "Presencial | temporário",
         "period": "03/2022 – 02/2023",
         "description": [
           "Atuei como técnico na seção de informática, realizando configuração de máquinas.",
-          "Gerenciei máquinas virtuais (Proxmox) e servidores on-premises.",
-          "Controlei a rede interna da unidade."
+          " Gerenciei máquinas virtuais (Proxmox) e servidores on-premises.",
+          " Controlei a rede interna da unidade."
         ]
       }
     ]

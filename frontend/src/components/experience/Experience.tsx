@@ -1,13 +1,14 @@
 import React from "react";
 import * as S from "./styles"
-import CardExperience from "./cardExperience";
+
 import xps from "./xp.json"; 
+import CardExperience from "./CardExperience";
 
 const Experience: React.FC = () => {
   return (
   <S.container>
     <S.title>Experiência profissional</S.title>
-    <S.p>Here is a quick summary of my most recent experiences:</S.p>
+    <S.p>Resumo das minha experiências profissionais:</S.p>
    {xps.experiences.map((xp) => <CardExperience
           key={xp.id}
           enterprise={xp.enterprise}

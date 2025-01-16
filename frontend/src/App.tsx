@@ -11,7 +11,7 @@ const App: React.FC = () => {
   const [isDarkTheme, setIsDarkTheme] = useState(false);
   return (
     <>
-      <ThemeProvider theme={isDarkTheme ? dark : light}>
+      <ThemeProvider theme={isDarkTheme ? light : dark}>
         <Home themeDark={setIsDarkTheme} value={isDarkTheme}/>
         <GlobalStyles />
       </ThemeProvider>

@@ -10,10 +10,12 @@ export const light = {
   primary: "#F9FAFB",
   secundary: "#111827",
 
-  background: "#F9FAFB",
+  background: "#FFFFFF",
+  secBackground: "#F9FAFB",
   text: "#111827",
   gray: "#E5E7EB",
-  card: "#FFFFFF",
+  card: "#ffffff",
+  green: "#14A800",
   breakpoints,
 };
 
@@ -24,9 +26,11 @@ export const dark = {
   secundary: "#F9FAFB",
   title1: "#111827",
   background: "#030712",
+  secBackground: "#111827",
 
   text: "#D1D5DB",
   gray: "#E5E7EB",
   card: "#1f2937",
+  green: "#14A800",
   breakpoints,
 };

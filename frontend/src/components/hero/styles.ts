@@ -5,6 +5,9 @@ export const hero = styled.section`
   flex-direction: column;
   gap: 1.3rem;
   padding: 0 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: ${(props) => props.theme.secBackground};
 `;
 
 export const name = styled.h2`

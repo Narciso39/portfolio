@@ -61,7 +61,7 @@ const NavBar: React.FC<NavBarProps> = ({ themeDark, value}) => {
                   <S.li>
                   <S.themeBtn  onClick={() => themeDark(prev => !prev)}>
                     <a >switch theme  </a>
-                    {!value ?  <IoSunny /> : <IoMoon style={{ color:"#F9FAFB",}}/>}
+                    {!value ?  <IoMoon style={{ color:"#F9FAFB",}}/>  : <IoSunny />}
                     </S.themeBtn>
                   </S.li>
                 </S.ul>

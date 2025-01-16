@@ -6,6 +6,7 @@ export const devContainer = styled.section`
   align-items: center;
   flex-direction: column;
   padding-top: 2rem;
+  padding-bottom: 2rem;
   gap: 2rem;
 `;
 export const imgDev = styled.img`
