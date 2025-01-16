@@ -11,7 +11,7 @@ export const hero = styled.section`
 `;
 
 export const name = styled.h2`
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: ${(props) => props.theme.text};
   overflow: hidden;

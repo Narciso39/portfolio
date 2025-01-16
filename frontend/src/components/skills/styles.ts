@@ -5,6 +5,7 @@ export const devContainer = styled.section`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 0 1rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
   gap: 2rem;
