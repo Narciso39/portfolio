@@ -3,11 +3,9 @@ import * as S from "./styles";
 import { logo } from "./logo";
 import { IoCloseSharp, IoMoon, IoSunny } from "react-icons/io5";
 import { TiThMenu } from "react-icons/ti";
+import { NavBarProps } from "../../types/Nav.type";
 
-type NavBarProps = {
-  themeDark: React.Dispatch<React.SetStateAction<boolean>>;
-  value: boolean;
-};
+
 const NavBar: React.FC<NavBarProps> = ({ themeDark, value}) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => {

@@ -3,11 +3,9 @@ import NavBar from "../../components/navbar/NavBar";
 import Hero from "../../components/hero/Hero";
 import Skills from "../../components/skills/Skills";
 import Experience from "../../components/experience/Experience";
+import { HomeProps } from "../../types/Home.type";
 
-type HomeProps = {
-  themeDark: React.Dispatch<React.SetStateAction<boolean>>;
-  value: boolean;
-};
+
 const Home: React.FC<HomeProps> = ({ themeDark, value }) => {
   return (
     <>

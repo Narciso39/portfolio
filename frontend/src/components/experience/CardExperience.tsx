@@ -1,13 +1,14 @@
 import React from "react";
 import * as S from "./styles";
+import { CardExperienceProps } from "../../types/CardExperience.type";
 
-const CardExperience: React.FC<{
-  enterprise: string;
-  date: string;
-  work: string;
-  func: string[];
-  position: string;
-}> = ({ enterprise, date, work, func, position }) => {
+const CardExperience: React.FC<CardExperienceProps> = ({
+  enterprise,
+  date,
+  work,
+  func,
+  position,
+}) => {
   return (
     <S.card>
       <S.position>{position}</S.position>
