@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
-export const container = styled.section``;
+export const container = styled.section`
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+`;
 
 export const title = styled.h2``;
 

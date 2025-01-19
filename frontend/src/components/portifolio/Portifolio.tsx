@@ -15,9 +15,9 @@ const Portifolio: React.FC = () => {
         </S.divPhoto>
 
         <S.divInfo>
-          <S.projectTitle></S.projectTitle>
-          <S.projectTitle></S.projectTitle>
-          <S.projectTec></S.projectTec>
+          <S.projectTitle>titulo do projeto</S.projectTitle>
+          <S.projectP>paragrafo do projeto</S.projectP>
+          <S.projectTec>tecnologias do projeto</S.projectTec>
         </S.divInfo>
       </S.cardXp>
     </S.container>
