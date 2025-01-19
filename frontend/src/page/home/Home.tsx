@@ -4,6 +4,7 @@ import Hero from "../../components/hero/Hero";
 import Skills from "../../components/skills/Skills";
 import Experience from "../../components/experience/Experience";
 import { HomeProps } from "../../types/Home.type";
+import Portifolio from "../../components/portifolio/Portifolio";
 
 
 const Home: React.FC<HomeProps> = ({ themeDark, value }) => {
@@ -14,6 +15,7 @@ const Home: React.FC<HomeProps> = ({ themeDark, value }) => {
         <Hero />
         <Skills />
         <Experience />
+        <Portifolio />
       </main>
     </>
   );

@@ -31,6 +31,6 @@ export const dark = {
   text: "#D1D5DB",
   gray: "#E5E7EB",
   card: "#1f2937",
-  green: "#14A800",
+  green: "#10b981",
   breakpoints,
 };
