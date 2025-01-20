@@ -1,38 +1,79 @@
 import styled from "styled-components";
 
 export const container = styled.section`
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+  /* padding: 0 0.2rem; */
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 `;
 
-export const title = styled.h2``;
+export const title = styled.h3`
+  width: 15rem;
+  text-align: center;
+  font-size: 1.3rem;
+  background-color: ${(props) => props.theme.gray};
+  border-radius: 1rem;
+  color: ${(props) => props.theme.title1};
+`;
 
-export const divTitle = styled.div``;
+export const divTitle = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+`;
 
-export const p = styled.p``;
+export const p = styled.p`
+  font-size: 1.5rem;
+  font-weight: 500;
+`;
 
+export const cardXp = styled.article``;
 
-export const cardXp = styled.article``
+export const divPhoto = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34.3rem;
+  /* width: 100%; */
+  height: 25.6rem;
+  background-color: ${(props) => props.theme.secBackground};
+  border-radius: 1.5rem 1.5rem 0 0;
+`;
 
-export const divPhoto = styled.div``
+export const divInfo = styled.div``;
 
-export const divInfo = styled.div``
+export const projectPhoto = styled.img`
+  max-width: 27.9rem;
+  width: 100%;
+  height: 19.2rem;
+`;
 
-export const projectPhoto = styled.img``
+export const projectTitle = styled.h3`
+  font-size: 1.5rem;
+  font-weight: 600;
+`;
 
-export const projectTitle = styled.h3``
+export const projectP = styled.p``;
 
-export const projectP = styled.p``
+export const projectTec = styled.strong``;
 
-export const projectTec = styled.strong`
-    display: flex;
-    gap: 20px;
-`
+export const divSkills = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+`;
 
-export const gitLink = styled.a``
+export const gitLink = styled.a``;
 
-export const deployLink = styled.a``
+export const deployLink = styled.a``;
 
-export const divLinks = styled.div``
+export const divLinks = styled.div``;

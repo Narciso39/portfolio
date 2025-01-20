@@ -21,9 +21,11 @@ const CardPortifolio: React.FC<CardPortifolioProps> = ({
       <S.divInfo>
         <S.projectTitle>{title}</S.projectTitle>
         <S.projectP>{pInfo}</S.projectP>
-        {tecnologias.map((tec) => (
-          <S.projectTec>{tec}</S.projectTec>
-        ))}
+        <S.divSkills>
+          {tecnologias.map((tec, index) => (
+            <S.projectTec key={index}>{tec}</S.projectTec>
+          ))}
+        </S.divSkills>
       </S.divInfo>
       <S.divLinks>
         <S.gitLink href={repoLink}>

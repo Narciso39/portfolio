@@ -12,6 +12,19 @@
             ],
             "repoLink": "github",
             "deployLink": "vercel"
+        },
+        {
+            "id": 2,
+            "imageUrl": "./src/assets/Picture.png",
+            "title": "algo",
+            "pInfo": "lorem algo",
+            "tecnologias": [
+                "angular",
+                "node",
+                "vite"
+            ],
+            "repoLink": "github",
+            "deployLink": "vercel"
         }
     ]
 }
