@@ -26,4 +26,13 @@ export const projectTitle = styled.h3``
 
 export const projectP = styled.p``
 
-export const projectTec = styled.strong``
+export const projectTec = styled.strong`
+    display: flex;
+    gap: 20px;
+`
+
+export const gitLink = styled.a``
+
+export const deployLink = styled.a``
+
+export const divLinks = styled.div``

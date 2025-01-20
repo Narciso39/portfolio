@@ -1,0 +1,17 @@
+{
+    "portifolio": [
+        {
+            "id": 1,
+            "imageUrl": "./src/assets/Picture.png",
+            "title": "algo",
+            "pInfo": "lorem algo",
+            "tecnologias": [
+                "angular",
+                "node",
+                "vite"
+            ],
+            "repoLink": "github",
+            "deployLink": "vercel"
+        }
+    ]
+}

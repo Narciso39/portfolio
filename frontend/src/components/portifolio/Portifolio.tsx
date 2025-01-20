@@ -1,6 +1,9 @@
 import React from "react";
+import port from "./portifolio.json";
 import * as S from "./styles";
+import CardPortifolio from "./CardPortifolio";
 import { p } from "./utils";
+
 const Portifolio: React.FC = () => {
   return (
     <S.container>
@@ -8,18 +11,16 @@ const Portifolio: React.FC = () => {
         <S.title>Portifolio</S.title>
         <S.p>{p}</S.p>
       </S.divTitle>
-
-      <S.cardXp>
-        <S.divPhoto>
-          <S.projectPhoto />
-        </S.divPhoto>
-
-        <S.divInfo>
-          <S.projectTitle>titulo do projeto</S.projectTitle>
-          <S.projectP>paragrafo do projeto</S.projectP>
-          <S.projectTec>tecnologias do projeto</S.projectTec>
-        </S.divInfo>
-      </S.cardXp>
+      {port.portifolio.map((po) => (
+        <CardPortifolio
+          key={po.id}
+          title={po.title}
+          pInfo={po.pInfo}
+          imageUrl={po.imageUrl}
+          tecnologias={po.tecnologias}
+          repoLink={po.repoLink}
+          deployLink={po.deployLink} id={0}       />
+      ))}
     </S.container>
   );
 };
