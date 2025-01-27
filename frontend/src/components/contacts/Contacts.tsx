@@ -1,5 +1,6 @@
 import React from "react";
 import * as S from "./styles";
+import { IoLogoGithub, IoLogoLinkedin, IoMailOutline } from "react-icons/io5";
 const Contacts: React.FC = () => {
   return (
     <S.contactContainer>
@@ -13,6 +14,30 @@ const Contacts: React.FC = () => {
       <S.secondPContact>
         You may also find me on these platforms!
       </S.secondPContact>
+      <S.divImg>
+        <IoLogoGithub
+          style={{
+            width: "2rem",
+            height: "2rem",
+            marginRight: "0.5rem",
+          }}
+        />
+
+        <IoLogoLinkedin
+          style={{
+            width: "2rem",
+            height: "2rem",
+            marginRight: "0.5rem",
+          }}
+        />
+        <IoMailOutline
+          style={{
+            width: "2rem",
+            height: "2rem",
+            marginRight: "0.5rem",
+          }}
+        />
+      </S.divImg>
     </S.contactContainer>
   );
 };
