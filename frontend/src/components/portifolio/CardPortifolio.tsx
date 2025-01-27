@@ -26,8 +26,7 @@ const CardPortifolio: React.FC<CardPortifolioProps> = ({
             <S.projectTec key={index}>{tec}</S.projectTec>
           ))}
         </S.divSkills>
-      </S.divInfo>
-      <S.divLinks>
+        <S.divLinks>
         <S.gitLink href={repoLink}>
           <IoLogoGithub
             style={{
@@ -48,6 +47,8 @@ const CardPortifolio: React.FC<CardPortifolioProps> = ({
           />
         </S.deployLink>
       </S.divLinks>
+      </S.divInfo>
+     
     </S.cardXp>
   );
 };

@@ -42,11 +42,15 @@ export const divPhoto = styled.div`
   width: 34.3rem;
   /* width: 100%; */
   height: 25.6rem;
-  background-color: ${(props) => props.theme.secBackground};
+  background-color: ${(props) => props.theme.secondCard};
   border-radius: 1.5rem 1.5rem 0 0;
 `;
 
-export const divInfo = styled.div``;
+export const divInfo = styled.div`
+  height: 51.6rem;
+ background-color: ${(props) => props.theme.card};
+ border-radius: 0 0 1.5rem 1.5rem;
+`;
 
 export const projectPhoto = styled.img`
   max-width: 27.9rem;
@@ -61,7 +65,15 @@ export const projectTitle = styled.h3`
 
 export const projectP = styled.p``;
 
-export const projectTec = styled.strong``;
+export const projectTec = styled.strong`
+  width: 6rem;
+  text-align: center;
+  font-size: 1.3rem;
+  background-color: ${(props) => props.theme.secondCard};
+  border-radius: 1rem;
+  font-weight: 400;
+  /* color: ${(props) => props.theme.title1}; */
+`;
 
 export const divSkills = styled.div`
   display: flex;
@@ -76,4 +88,6 @@ export const gitLink = styled.a``;
 
 export const deployLink = styled.a``;
 
-export const divLinks = styled.div``;
+export const divLinks = styled.div`
+ 
+`;
