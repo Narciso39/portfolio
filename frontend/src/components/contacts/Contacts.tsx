@@ -9,8 +9,8 @@ const Contacts: React.FC = () => {
         What’s next? Feel free to reach out to me if you're looking for a
         developer, have a query, or simply want to connect.
       </S.pContact>
-      <S.email>reachsagarshah@gmail.com</S.email>
-      <S.phonenumber>+91 8980500565</S.phonenumber>
+      <S.email>felipenarciso15@gmail.com</S.email>
+      <S.phonenumber>+55 (21) 99534-1050</S.phonenumber>
       <S.secondPContact>
         You may also find me on these platforms!
       </S.secondPContact>
