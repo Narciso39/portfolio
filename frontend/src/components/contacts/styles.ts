@@ -22,21 +22,22 @@ export const title = styled.h3`
 `;
 
 export const pContact = styled.p`
-    font-size: 1.3rem;
+  padding: 1rem;
+  font-size: 1.3rem;
 `;
 
 export const email = styled.strong`
-    font-size: 2rem;
+  font-size: 2rem;
 `;
 
 export const phonenumber = styled.strong`
-    font-size: 2rem;
+  font-size: 2rem;
 `;
 
 export const secondPContact = styled.p`
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 `;
 
-export const divImg = styled.div``
+export const divImg = styled.div``;
 
 // export const img = styled.img``
