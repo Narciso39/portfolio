@@ -47,15 +47,24 @@ export const divPhoto = styled.div`
 `;
 
 export const divInfo = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  /* max-width: 27.9rem;
+  width: 100%; */
   height: 51.6rem;
- background-color: ${(props) => props.theme.card};
- border-radius: 0 0 1.5rem 1.5rem;
+  background-color: ${(props) => props.theme.card};
+  border-radius: 0 0 1.5rem 1.5rem;
 `;
 
 export const projectPhoto = styled.img`
   max-width: 27.9rem;
   width: 100%;
   height: 19.2rem;
+  /* object-fit: cover;  */
 `;
 
 export const projectTitle = styled.h3`
@@ -63,7 +72,14 @@ export const projectTitle = styled.h3`
   font-weight: 600;
 `;
 
-export const projectP = styled.p``;
+export const projectP = styled.p`
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+  max-width: 27.9rem;
+  width: 100%;
+`;
 
 export const projectTec = styled.strong`
   width: 6rem;
@@ -81,13 +97,13 @@ export const divSkills = styled.div`
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1.3rem;
+  max-width: 27.9rem;
+  width: 100%;
 `;
 
 export const gitLink = styled.a``;
 
 export const deployLink = styled.a``;
 
-export const divLinks = styled.div`
- 
-`;
+export const divLinks = styled.div``;

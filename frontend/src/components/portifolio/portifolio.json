@@ -2,15 +2,17 @@
     "portifolio": [
         {
             "id": 1,
-            "imageUrl": "./src/assets/Picture.png",
-            "title": "algo",
-            "pInfo": "lorem algo",
+            "imageUrl": "../../public/img/shop-commerce.png",
+            "title": "Desafio 2 - SHOP.CO - Compass Uol",
+            "pInfo": "Desafio dois do estágio da compass uol. projeto prático, onde tive que desenvolver uma página estática a partir de um template do figma. teve alguns métodos de aceite e foi o meu primeiro projeto 100% front-end",
             "tecnologias": [
-                "angular",
-                "node",
-                "vite"
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Figma",
+                "github"
             ],
-            "repoLink": "github",
+            "repoLink": "https://narciso39.github.io/desafio-2/",
             "deployLink": "vercel"
         },
         {
