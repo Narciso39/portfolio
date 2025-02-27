@@ -52,7 +52,7 @@ export const divInfo = styled.div`
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 2.5rem;
+  gap: 1.5rem;
   /* max-width: 27.9rem;
   width: 100%; */
   height: 51.6rem;
@@ -75,8 +75,9 @@ export const projectTitle = styled.h3`
 export const projectP = styled.p`
   display: flex;
   align-items: center;
+  font-size: 1.5rem;
   padding: 1rem;
-  text-align: center;
+  
   max-width: 27.9rem;
   width: 100%;
 `;
