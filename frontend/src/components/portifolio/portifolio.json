@@ -10,23 +10,26 @@
                 "CSS",
                 "JavaScript",
                 "Figma",
+                "git",
                 "github"
             ],
-            "repoLink": "https://github.com/Narciso39/desafio-2", 
+            "repoLink": "https://github.com/Narciso39/desafio-2",
             "deployLink": "https://narciso39.github.io/desafio-2/"
         },
         {
             "id": 2,
-            "imageUrl": "/Picture.png",
-            "title": "algo",
-            "pInfo": "lorem algo",
+            "imageUrl": "/img/saguitech.png",
+            "title": "Desafio Saguitech - NFS-e - teste técnico",
+            "pInfo": "Projeto de emissão de Nota Fiscal de Serviço (NFS-e), onde o usuário insere dados da venda e alíquotas de impostos (IRPF, PIS, COFINS, INSS, ISSQN). O sistema calcula os tributos automaticamente e gera a NFS-e na página.",
             "tecnologias": [
-                "angular",
-                "node",
-                "vite"
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "git",
+                "github"
             ],
-            "repoLink": "github",
-            "deployLink": "vercel"
+            "repoLink": "https://github.com/Narciso39/desafio-Saguitechg",
+            "deployLink": "https://desafio-saguitech-phi.vercel.app/"
         }
     ]
 }
