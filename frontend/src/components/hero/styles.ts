@@ -9,9 +9,7 @@ export const hero = styled.section`
   padding-bottom: 2rem;
   background-color: ${(props) => props.theme.secBackground};
 
-
-
-  @media (max-width: ${(props) => props.theme.breakpoints.desktop}) {
+  @media (width > ${(props) => props.theme.breakpoints.desktop}) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,11 +44,21 @@ export const name = styled.h2`
       border-color: ${(props) => props.theme.text};
     }
   }
+
+  @media (width > ${(props) => props.theme.breakpoints.desktop}) {
+    font-size: 5.5rem;
+  }
 `;
 
 export const presentation = styled.p`
   font-size: 1.3rem;
   color: ${(props) => props.theme.text};
+
+  @media (width > ${(props) => props.theme.breakpoints.desktop}) {
+    padding: 1rem;
+    font-size: 1.7rem;
+    font-weight: 200;
+  }
 `;
 
 export const city = styled.p`
@@ -81,4 +89,3 @@ export const divLink = styled.div`
   height: 2rem;
   gap: 1.2rem;
 `;
-
