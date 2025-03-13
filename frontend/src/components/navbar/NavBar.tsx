@@ -5,8 +5,7 @@ import { IoCloseSharp, IoMoon, IoSunny } from "react-icons/io5";
 import { TiThMenu } from "react-icons/ti";
 import { NavBarProps } from "../../types/Nav.type";
 
-
-const NavBar: React.FC<NavBarProps> = ({ themeDark, value}) => {
+const NavBar: React.FC<NavBarProps> = ({ themeDark, value }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -33,33 +32,38 @@ const NavBar: React.FC<NavBarProps> = ({ themeDark, value}) => {
       <S.Header>
         <S.contentMobile>
           <S.logoMobile>
-            <S.logo>{logo}</S.logo>
+          <S.logo>{logo}</S.logo>
             <S.menuIcon onClick={toggleMenu}>
               {menuOpen ? <IoCloseSharp /> : <TiThMenu />}
             </S.menuIcon>
           </S.logoMobile>
           {menuOpen || window.innerWidth > 1000 ? (
             <S.navbar>
+             
               <S.ul>
                 <S.li>
-                  <a>Sobre mim</a>
+                  <S.link>Sobre mim</S.link>
                 </S.li>
                 <S.li>
-                  <a>Meu trabalho</a>
+                  <S.link>Meu trabalho</S.link>
                 </S.li>
                 <S.li>
-                  <a>Contatos</a>
+                  <S.link>Contatos</S.link>
                 </S.li>
                 <S.li>
-                  <a>Contatos</a>
+                  <S.link>Contatos</S.link>
                 </S.li>
               </S.ul>
               <S.theme>
                 <S.ul>
                   <S.li>
-                  <S.themeBtn  onClick={() => themeDark(prev => !prev)}>
-                    <a >switch theme  </a>
-                    {!value ?  <IoMoon style={{ color:"#F9FAFB",}}/>  : <IoSunny />}
+                    <S.themeBtn onClick={() => themeDark((prev) => !prev)}>
+                      <a>switch theme </a>
+                      {!value ? (
+                        <IoMoon style={{ color: "#F9FAFB" }} />
+                      ) : (
+                        <IoSunny />
+                      )}
                     </S.themeBtn>
                   </S.li>
                 </S.ul>

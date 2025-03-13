@@ -34,7 +34,7 @@
         {
             "id": 3,
             "imageUrl": "/img/agenda.png",
-            "title": "Agenda php",
+            "title": "Agenda",
             "pInfo": "meu primeiro projeto prático, onde desenvolvi uma agenda e posteriormente utilizei ela no meu primeiro estágio para anotar os clientes que estavam com o banco de dados atualizado.",
             "tecnologias": [
                 "HTML",
@@ -42,7 +42,7 @@
                 "JavaScript",
                 "PHP",
                 "MySQL",
-                "XAMPP"
+                "Xampp"
             ],
             "repoLink": "https://github.com/Narciso39/agenda",
             "deployLink": ""

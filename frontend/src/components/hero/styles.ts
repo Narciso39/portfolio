@@ -8,6 +8,16 @@ export const hero = styled.section`
   padding-top: 2rem;
   padding-bottom: 2rem;
   background-color: ${(props) => props.theme.secBackground};
+
+
+
+  @media (max-width: ${(props) => props.theme.breakpoints.desktop}) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 `;
 
 export const name = styled.h2`
