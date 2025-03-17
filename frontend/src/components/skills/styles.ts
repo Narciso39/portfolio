@@ -13,6 +13,11 @@ export const devContainer = styled.section`
 export const imgDev = styled.img`
   width: 7rem;
   height: 7rem;
+
+  @media (width > ${(props) => props.theme.breakpoints.desktop}) {
+    width: 10rem;
+    height: 10rem;
+  }
 `;
 
 export const title = styled.h3`
@@ -22,6 +27,10 @@ export const title = styled.h3`
   background-color: ${(props) => props.theme.gray};
   border-radius: 1rem;
   color: ${(props) => props.theme.title1};
+
+  @media (width > ${(props) => props.theme.breakpoints.desktop}) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const logosContainer = styled.div`
