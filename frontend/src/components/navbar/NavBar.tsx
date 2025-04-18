@@ -31,7 +31,7 @@ const NavBar: React.FC<NavBarProps> = ({ themeDark, value }) => {
   
   const handleDownload = () => {
     
-    const pdfUrl = '../../assets/cv/curriculo.pdf';
+    const pdfUrl = '/cv/curriculo.pdf';
    
     const fileName = 'curriculo.pdf';
     
