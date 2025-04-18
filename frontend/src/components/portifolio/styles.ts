@@ -34,15 +34,13 @@ export const p = styled.p`
 `;
 
 export const cardXp = styled.article`
-
-@media (width > ${(props) => props.theme.breakpoints.desktop}) {
+  @media (width > ${(props) => props.theme.breakpoints.desktop}) {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     text-align: center;
   }
-
 `;
 
 export const divPhoto = styled.div`
@@ -58,35 +56,19 @@ export const divPhoto = styled.div`
   @media (width > ${(props) => props.theme.breakpoints.desktop}) {
     display: flex;
     flex-direction: column;
-  //  align-items: center;
-   // justify-content: center;
+    //  align-items: center;
+    justify-content: space-evenly;
     //text-align: center;
+    width: 57.6rem;
+    height: 48rem;
     border-radius: 1.5rem 0 0 1.5rem;
   }
 `;
 
 export const divInfo = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  /* max-width: 27.9rem;
-  width: 100%; */
-  height: 51.6rem;
-  background-color: ${(props) => props.theme.card};
-  border-radius: 0 0 1.5rem 1.5rem;
-
-  @media (width > ${(props) => props.theme.breakpoints.desktop}) {
-    display: flex;
-    flex-direction: row;
-  //  align-items: center;
-   // justify-content: center;
-    //text-align: center;
-    border-radius: 0 1.5rem 1.5rem 0;
-    height: 25.6rem;
-  }
+     display: flex;
+     flex-direction: column;
+     gap: 1.5rem;
 `;
 
 export const projectPhoto = styled.img`
@@ -95,8 +77,12 @@ export const projectPhoto = styled.img`
   height: 19.2rem;
   /* object-fit: cover;  */
 
-
-
+  @media (width > ${(props) => props.theme.breakpoints.desktop}) {
+    max-width: 48rem;
+    width: 100%;
+    height: 38.4rem;
+    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem ;
+  }
 `;
 
 export const projectTitle = styled.h3`
@@ -109,7 +95,7 @@ export const projectP = styled.p`
   align-items: center;
   font-size: 1.5rem;
   padding: 1rem;
-  
+
   max-width: 27.9rem;
   width: 100%;
 `;
@@ -140,3 +126,28 @@ export const gitLink = styled.a``;
 export const deployLink = styled.a``;
 
 export const divLinks = styled.div``;
+
+export const newDiv = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  //max-width: 27.9rem;
+  //width: 100%;
+  height: 51.6rem;
+  background-color: ${(props) => props.theme.card};
+  border-radius: 0 0 1.5rem 1.5rem;
+
+  @media (width > ${(props) => props.theme.breakpoints.desktop}) {
+    display: flex;
+    flex-direction: row;
+    //  align-items: center;
+    // justify-content: center;
+    //text-align: center;
+    border-radius: 0 1.5rem 1.5rem 0;
+    width: 57.6rem;
+    height: 48rem;
+  }
+`;

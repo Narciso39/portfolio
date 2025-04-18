@@ -17,7 +17,7 @@ const CardPortifolio: React.FC<CardPortifolioProps> = ({
       <S.divPhoto>
         <S.projectPhoto src={imageUrl} />
       </S.divPhoto>
-
+      <S.newDiv>
       <S.divInfo>
         <S.projectTitle>{title}</S.projectTitle>
         <S.projectP>{pInfo}</S.projectP>
@@ -48,7 +48,7 @@ const CardPortifolio: React.FC<CardPortifolioProps> = ({
         </S.deployLink>
       </S.divLinks>
       </S.divInfo>
-     
+      </S.newDiv>
     </S.cardXp>
   );
 };
