@@ -64,10 +64,10 @@ const NavBar: React.FC<NavBarProps> = ({ themeDark, value }) => {
                   <S.link>Sobre mim</S.link>
                 </S.li>
                 <S.li>
-                  <S.link>Meu trabalho</S.link>
+                  <S.link>Experiências</S.link>
                 </S.li>
                 <S.li>
-                  <S.link>Contatos</S.link>
+                  <S.link>Projetos</S.link>
                 </S.li>
                 <S.li>
                   <S.link>Contatos</S.link>
@@ -77,7 +77,7 @@ const NavBar: React.FC<NavBarProps> = ({ themeDark, value }) => {
                 <S.ul>
                   <S.li>
                     <S.themeBtn onClick={() => themeDark((prev) => !prev)}>
-                      <a>switch theme </a>
+                      <a>Tema </a>
                       {!value ? (
                         <IoMoon style={{ color: "#F9FAFB" }} />
                       ) : (
