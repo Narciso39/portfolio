@@ -5,6 +5,7 @@ import { IoCloseSharp, IoMoon, IoSunny } from "react-icons/io5";
 import { TiThMenu } from "react-icons/ti";
 import { NavBarProps } from "../../types/Nav.type";
 
+
 const NavBar: React.FC<NavBarProps> = ({ themeDark, value }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => {
@@ -27,6 +28,24 @@ const NavBar: React.FC<NavBarProps> = ({ themeDark, value }) => {
       window.removeEventListener("resize", handleResize);
     };
   }, [menuOpen]);
+  
+  const handleDownload = () => {
+    
+    const pdfUrl = '../../assets/cv/curriculo.pdf';
+   
+    const fileName = 'curriculo.pdf';
+    
+   
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = fileName;
+    
+ 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+  
   return (
     <>
       <S.Header>
@@ -67,7 +86,7 @@ const NavBar: React.FC<NavBarProps> = ({ themeDark, value }) => {
                     </S.themeBtn>
                   </S.li>
                 </S.ul>
-                <S.button>Download CV</S.button>
+                <S.button onClick={handleDownload}>Download CV</S.button>
               </S.theme>
             </S.navbar>
           ) : (
