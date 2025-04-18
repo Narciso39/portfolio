@@ -33,7 +33,17 @@ export const p = styled.p`
   font-weight: 500;
 `;
 
-export const cardXp = styled.article``;
+export const cardXp = styled.article`
+
+@media (width > ${(props) => props.theme.breakpoints.desktop}) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+`;
 
 export const divPhoto = styled.div`
   display: flex;
@@ -44,6 +54,15 @@ export const divPhoto = styled.div`
   height: 25.6rem;
   background-color: ${(props) => props.theme.secondCard};
   border-radius: 1.5rem 1.5rem 0 0;
+
+  @media (width > ${(props) => props.theme.breakpoints.desktop}) {
+    display: flex;
+    flex-direction: column;
+  //  align-items: center;
+   // justify-content: center;
+    //text-align: center;
+    border-radius: 1.5rem 0 0 1.5rem;
+  }
 `;
 
 export const divInfo = styled.div`
@@ -58,6 +77,16 @@ export const divInfo = styled.div`
   height: 51.6rem;
   background-color: ${(props) => props.theme.card};
   border-radius: 0 0 1.5rem 1.5rem;
+
+  @media (width > ${(props) => props.theme.breakpoints.desktop}) {
+    display: flex;
+    flex-direction: row;
+  //  align-items: center;
+   // justify-content: center;
+    //text-align: center;
+    border-radius: 0 1.5rem 1.5rem 0;
+    height: 25.6rem;
+  }
 `;
 
 export const projectPhoto = styled.img`
@@ -65,6 +94,9 @@ export const projectPhoto = styled.img`
   width: 100%;
   height: 19.2rem;
   /* object-fit: cover;  */
+
+
+
 `;
 
 export const projectTitle = styled.h3`
