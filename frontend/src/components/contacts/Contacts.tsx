@@ -3,7 +3,7 @@ import * as S from "./styles";
 import { IoLogoGithub, IoLogoLinkedin, IoMailOutline } from "react-icons/io5";
 const Contacts: React.FC = () => {
   return (
-    <S.contactContainer>
+    <S.contactContainer id="contato">
       <S.title>Contacts</S.title>
       <S.pContact>
         What’s next? Feel free to reach out to me if you're looking for a

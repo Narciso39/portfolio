@@ -61,16 +61,16 @@ const NavBar: React.FC<NavBarProps> = ({ themeDark, value }) => {
              
               <S.ul>
                 <S.li>
-                  <S.link>Sobre mim</S.link>
+                  <S.link href="#sobre-mim">Sobre mim</S.link>
                 </S.li>
                 <S.li>
-                  <S.link>Experiências</S.link>
+                  <S.link href="#experiencia">Experiências</S.link>
                 </S.li>
                 <S.li>
-                  <S.link>Projetos</S.link>
+                  <S.link href="#projetos">Projetos</S.link>
                 </S.li>
                 <S.li>
-                  <S.link>Contatos</S.link>
+                  <S.link href="#contato">Contatos</S.link>
                 </S.li>
               </S.ul>
               <S.theme>

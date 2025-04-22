@@ -10,6 +10,8 @@ import Footer from "../../components/footer/Footer";
 
 
 const Home: React.FC<HomeProps> = ({ themeDark, value }) => {
+
+
   return (
     <>
       <NavBar themeDark={themeDark} value={value} />

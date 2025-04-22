@@ -12,7 +12,7 @@ import {
 const Hero: React.FC = () => {
   return (
     <>
-      <S.hero>
+      <S.hero id="sobre-mim">
         <S.name>{n}</S.name>
         <S.presentation>{p}</S.presentation>
         <S.city>
